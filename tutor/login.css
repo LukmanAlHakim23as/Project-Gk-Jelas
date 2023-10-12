@@ -1,0 +1,36 @@
+*{
+    font-family: 'Roboto Slab', serif;
+}
+
+a button{
+    height: 50px;
+    width: 70x;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: none;
+}
+
+svg{
+    padding-right: 10px;
+    width: 40px;
+}
+
+#login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box-area{
+    width: 900px;
+    border-radius: 30px;
+}
+
+.left-box{
+    background-image: url(asset/Lgnimg.png);
+}
+
+.right-box{
+    background-color: white;
+}

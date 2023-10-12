@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Shop.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/eb2cf39241.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="asset/G.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>Gaviria</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="asset/G.png" alt="" width="30" height="24">
+                Gaviria
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto" style="font-size: 15px;">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active" aria-current="page" href="Shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2 text-center" type="search" placeholder="Search" aria-label="Search"
+                    style="border-radius: 10px; height: 35px;">
+                    <button class="btn btn" type="submit"><svg xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24"
+                            stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+                            <path d="M21 21l-6 -6"></path>
+                        </svg></button>
+                </form>
+
+                <a href="login.html" style="color: black;"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user mx-3" width="24" height="24"
+                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                    <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                  </svg></a>
+
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart mx-3" width="24"
+                  height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                  stroke-linejoin="round" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                  aria-controls="offcanvasRight">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                  <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                  <path d="M17 17h-11v-14h-2"></path>
+                  <path d="M6 5l14 1l-1 7h-13"></path>
+                </svg>
+            </div>
+        </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        ...
+      </div>
+    </div>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="asset/crsl1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="asset/crsl2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="asset/crsl3.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="category">
+        <div class="row">
+            <div class="d-flex flex-wrap justify-content-center mt-4 filter-button-group">
+                <button type="button" class="btn btn-dark m-2 active-filter-btn" data-filter = "*" style="background-color: #E2E1DF; color: black;">All Product</button>
+                <button type="button" class="btn btn-dark m-2" data-filter = ".jacket">Jacket</button>
+                <button type="button" class="btn btn-dark m-2" data-filter=".hoodie">Hoodie</button>
+                <button type="button" class="btn btn-dark m-2" data-filter=".t-shirt">T-Shirt</button>
+            </div>
+
+            <div class="col-md-3 py-3 py-md-0 t-shirt">
+                <div class="card">
+                  <img src="assetproduk/champ.png" alt="">
+                  <div class="card-body">
+                    <h6 class="card-title">Champion T-Shirt</h6>
+                    <div class="rating">
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                      <p>Rp.90.000</p>
+                      <button type="button">Add Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 py-3 py-md-0 hoodie">
+                <div class="card">
+                  <img  src="assetproduk/grey hoodie.png" alt="">
+                  <div class="card-body">
+                    <h6 class="card-title">Hoodie Grey Pullover</h6>
+                    <div class="rating">
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                      <p>Rp.155.000</p>
+                      <button type="button">Add Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 py-3 py-md-0 hoodie">
+                <div class="card">
+                  <img onclick="location.href='product.html'" src="assetproduk/Hoodie.png" alt="">
+                  <div class="card-body">
+                    <h6 class="card-title">Hoodie Green Pullover</h6>
+                    <div class="rating">
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                      <p>Rp.120.000</p>
+                      <button type="button">Add Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 py-3 py-md-0 t-shirt">
+                <div class="card">
+                  <img src="assetproduk/levi.png" alt="">
+                  <div class="card-body">
+                    <h6 class="card-title">LEVI'S Black T-Shirt Mens</h6>
+                    <div class="rating">
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                      <p>Rp.100.000</p>
+                      <button type="button">Add Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-md-3 py-3 py-md-0 jacket">
+                <div class="card">
+                  <img src="assetproduk/1.png" alt="">
+                  <div class="card-body">
+                    <h6 class="card-title">Waterproof Black Rain Jacket</h6>
+                    <div class="rating">
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                      <p>Rp.180.000</p>
+                      <button type="button">Add Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 py-3 py-md-0 jacket">
+                <div class="card">
+                  <img src="assetproduk/2.png" alt="">
+                  <div class="card-body">
+                    <h6 class="card-title">Leather Overcoat Jacket</h6>
+                    <div class="rating">
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                      <p>Rp.185.000</p>
+                      <button type="button">Add Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 py-3 py-md-0 jacket">
+                <div class="card">
+                  <img src="assetproduk/3.png" alt="">
+                  <div class="card-body">
+                    <h6 class="card-title">Vintage BLL Western Jacket</h6>
+                    <div class="rating">
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                      <p>Rp.200.000</p>
+                      <button type="button">Add Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 py-3 py-md-0 jacket">
+                <div class="card">
+                  <img src="assetproduk/4.jpg" alt="">
+                  <div class="card-body">
+                    <h6 class="card-title">Vintage BUTWIN Black</h6>
+                    <div class="rating">
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                      <span><i class="fa-regular fa-star"></i></span>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                      <p>Rp.175.000</p>
+                      <button type="button">Add Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+  
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <img src="asset/Logo.png" alt="" height="30">
+              <p>
+                Utan Kayu Street <br>
+                Jakarta, JKT 13120<br>
+                Indonesia <br><br>
+                <strong>Phone:</strong><br>
+                <strong>Email:</strong><br>
+              </p>
+            </div>
+  
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Shop</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Our Social Networks</h4>
+              <p>Keep in touch with us!</p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c0 -.249 1.51 -2.772 1.818 -4.013z"></path>
+               </svg></i></a>
+                <a href="" class="youtube"><i class="bx bxl-facebook"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M3 5m0 4a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z"></path>
+                  <path d="M10 9l5 3l-5 3z"></path>
+               </svg></i></a>
+                <a href="" class="instagram"><i class="bx bxl-instagram"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path>
+                  <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                  <path d="M16.5 7.5l0 .01"></path>
+               </svg></i></a>
+                <a href="#" class="tiktok"><i class="bx bxl-skype"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-tiktok" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M21 7.917v4.034a9.948 9.948 0 0 1 -5 -1.951v4.5a6.5 6.5 0 1 1 -8 -6.326v4.326a2.5 2.5 0 1 0 4 2v-11.5h4.083a6.005 6.005 0 0 0 4.917 4.917z"></path>
+               </svg></i></a>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+  
+      <div class="container footer-bottom clearfix">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Gaviria</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed by <a>Gaviria</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="shop.js"></script>
+    <!-- isotope js -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
